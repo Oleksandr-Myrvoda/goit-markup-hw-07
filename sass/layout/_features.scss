@@ -1,0 +1,33 @@
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+}
+
+.features__title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.features__item {
+  margin-left: 30px;
+  flex-basis: calc(100% / 4 - 30px);
+}
+
+.icon-features {
+  display: flex;
+  justify-content: center;
+  background-color: var(--secondary-bg-color);
+  border-radius: 4px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.features-block {
+  padding-bottom: 0;
+}

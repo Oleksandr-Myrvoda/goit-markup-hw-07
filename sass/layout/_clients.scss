@@ -1,0 +1,27 @@
+.clients {
+  display: flex;
+  margin-left: -30px;
+}
+
+.clients__item {
+  margin-left: 30px;
+  flex-basis: calc(100% / 6 - 30px);
+}
+
+.clients__link-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--company-logo);
+  border: 1px solid var(--company-logo);
+  border-radius: 4px;
+  width: 170px;
+  height: 90px;
+  @include transition();
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+    fill: var(--accent-color);
+  }
+}
